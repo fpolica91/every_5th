@@ -1,0 +1,27 @@
+/* odd, even, nth */
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li:nth-child(5n - 14) {
+    background-color: red;
+}
+
+ li:nth-child(5n - 18) {
+    background-color: green;
+}
+
+li:nth-child(5n - 22) {
+    background-color: blue;
+}
+
+
+
+li:nth-child(5n - 26) {
+    background-color: brown;
+}
+
+li:nth-child(5n - 30) {
+    background-color: #000000;
+} 
